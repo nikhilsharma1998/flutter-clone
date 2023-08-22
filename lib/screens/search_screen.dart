@@ -96,7 +96,7 @@ class _SearchScreenState extends State<SearchScreen> {
                     (index % 7 == 0) ? 2 : 1,
                   ),
                   mainAxisSpacing: 9,
-                  crossAxisSpacing: 8,
+                  crossAxisSpacing: 9,
                 );
               },
             ),
