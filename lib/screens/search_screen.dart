@@ -93,7 +93,7 @@ class _SearchScreenState extends State<SearchScreen> {
                       (snapshot.data! as dynamic).docs[index]['postUrl']),
                   staggeredTileBuilder: (index) => StaggeredTile.count(
                     (index % 7 == 0) ? 2 : 1,
-                    (index % 7 == 0) ? 2 : 1,
+                    (index % 7 == 0) ? 2 : 2,
                   ),
                   mainAxisSpacing: 11,
                   crossAxisSpacing: 11,
